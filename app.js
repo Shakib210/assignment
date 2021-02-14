@@ -77,7 +77,7 @@ const createSlider = () => {
   imagesArea.style.display = 'none';
   let value=document.getElementById('duration').value
   let duration=1000;
-  if(value>0){
+  if(value>=0){
      duration = value  || 1000;
   } else{
     alert("Duration must be positive")
